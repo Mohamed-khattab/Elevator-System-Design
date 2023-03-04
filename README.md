@@ -10,7 +10,7 @@ The problem is to design an elevator system that can handle multiple requests fr
 
 The solution consists of three main components: Elevator, Request (External or internal) and threads classes .
 
- - Elevator is a class that represents an individual elevator with its attributes (such as current floor, direction, status multiple Treesets to store diffrent types of requests ) and methods (such as proces up requests , proces down requests and others ).
+- Elevator is a class that represents an individual elevator with its attributes (such as current floor, direction, status multiple Treesets to store diffrent types of requests ) and methods (such as proces up requests , proces down requests and others ).
  
 - The solution consists of two classes that implement the Runnable interface: ProcessJobWorker and AddJobWorker.
  
@@ -20,4 +20,4 @@ The solution consists of three main components: Elevator, Request (External or i
 
 ## How to Run
 
-To run the solution, you need to have Java installed on your machine. You can clone this repo or download the source code as a zip file. Then navigate to the src folder and run TestElvator file 
+To run the solution, you need to have Java installed on your machine.You can clone this repo or download the source code as a zip file. Then navigate to the src folder and run TestElvator file 
