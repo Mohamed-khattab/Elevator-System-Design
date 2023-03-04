@@ -14,9 +14,9 @@ The solution consists of three main components: Elevator, Request (External or i
  
 - The solution consists of two classes that implement the Runnable interface: ProcessJobWorker and AddJobWorker.
  
->- AddJobWorker is a class that creates events( requests) and puts them in a shared Treeset . An event is represented by a class that has some data as an attribute.
+&nbsp - AddJobWorker is a class that creates events( requests) and puts them in a shared Treeset . An event is represented by a class that has some data as an attribute.
 
->- ProcessJobWorker is a class that continuously check for event in Treeset and process them.
+ &nbsp - ProcessJobWorker is a class that continuously check for event in Treeset and process them.
 
 ## How to Run
 
